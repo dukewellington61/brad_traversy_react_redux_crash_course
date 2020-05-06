@@ -47,7 +47,7 @@ const mapStateToProps = (state) => ({
 
 // connect function connects Posts component to the redux store
 // It provides its connected component with the pieces of the data it needs from the store,
-// and the functions it can use to dispatch actions to the store.
+// and the functions ({ fetchPosts }) it can use to dispatch actions to the store.
 // mapStateToProps: state from redux store is maped to our component props
 // apart from whatever props Posts component was receiving, it will now recieve an additional prob called
 // posts which reflects the posts in the redux store
